@@ -1,0 +1,35 @@
+public class CetakMaxNumber {
+    static double maxNumber(double a, double b){
+
+        //method sama parameter berbeda
+        //tipe data double
+
+        if (a > b){
+            return a;
+        } else {
+            return b;
+        }
+    }
+
+    static int maxNumber(int a, int b){
+
+        //method sama parameter berbeda
+        //tipe data int
+
+        if (a > b){
+            return a;
+        } else {
+            return b;
+        }
+    }
+
+    public static void main(String[] args) {
+        System.out.println(maxNumber(10, 20));
+        System.out.println(maxNumber(4.5, 7.5));
+
+        //hasil dari nilai argumennya, akan sesuai dengan tipe data parameternya
+        //20 integer
+        //7.5 double
+
+    }
+}

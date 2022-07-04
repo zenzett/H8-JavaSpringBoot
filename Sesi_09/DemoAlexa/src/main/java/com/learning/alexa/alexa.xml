@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  Need more Alexa data?  Find our APIs here: https://aws.amazon.com/marketplace/seller-profile?id=4a9dbf38-88b1-4e87-a459-271154a77d2e  -->
+<ALEXA VER="0.9" URL="hacktiv8.com/" HOME="0" AID="=" IDN="hacktiv8.com/">
+	<SD>
+		<POPULARITY URL="hacktiv8.com/" TEXT="233407" SOURCE="panel" />
+		<REACH RANK="195986" />
+		<RANK DELTA="-3957" />
+		<COUNTRY CODE="JP" NAME="Japan" RANK="16274" />
+	</SD>
+</ALEXA>

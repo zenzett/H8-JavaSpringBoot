@@ -1,0 +1,71 @@
+DemoSAX - com.learning.sax
+mvn archetype:generate -DgroupId=com.learning.sax -DartifactId=DemoSAX -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+
+Lalu coba build di terminal lalu masuk ke projectnya dan jalankan perintah :
+mvn exec:java -Dexec.mainClass="com.ParsingXmlSax.module.Mail"
+mvn exec:java -Dexec.mainClass="com.learning.dom.ParseKnownXMLStructure"
+mvn exec:java -q
+
+
+DemoDOM - com.learning.dom
+mvn archetype:generate -DgroupId=com.learning.dom -DartifactId=DemoDOM -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+
+
+DemoChallange - com.learning.challange
+mvn archetype:generate -DgroupId=com.learning.challenge -DartifactId=DemoChallenge -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+
+
+mvn exec:java -Dexec.mainClass="com.learning.sax.JavaReadXMLSaxEx"
+mvn exec:java -Dexec.mainClass="com.learning.sax.ParseKnownXMLStructure"
+mvn exec:java -Dexec.mainClass="com.ParsingXMLSax.module.Mail"
+mvn exec:java -q
+
+https://data.alexa.com/data?cli=10&url=hacktiv8.com
+<ALEXA VER="0.9" URL="hacktiv8.com/" HOME="0" AID="=" IDN="hacktiv8.com/">
+<SD>
+<POPULARITY URL="hacktiv8.com/" TEXT="233407" SOURCE="panel"/>
+<REACH RANK="195986"/>
+<RANK DELTA="-3957"/>
+<COUNTRY CODE="JP" NAME="Japan" RANK="16274"/>
+</SD>
+</ALEXA>
+
+
+@Override
+    public void characters(char[] ch, int start, int length) throws SAXException {
+
+        if (bfn) {
+            user.setName(new String(ch, start, length));
+            bfn = false;
+        }
+
+        if (bln) {
+            user.setGender(new String(ch, 
+
+
+@Override
+    public String toString() {
+
+        StringBuilder builder = new StringBuilder();
+        builder.append("User{").append("id=").append(id)
+                .append(", Name=").append(name)
+                .append(", gender=").append(gender)
+                .append(", role=").append(role).append("}");
+
+        return builder.toString();
+    }
+
+
+<build>
+    <plugins>
+        <plugin>
+            <groupId>org.codehaus.mojo</groupId>
+            <artifactId>exec-maven-plugin</artifactId>
+            <version>1.6.0</version>
+            <configuration>
+                <mainClass>com.learning.sax.JavaReadXmlSaxEx</mainClass>
+            </configuration>
+        </plugin>
+    </plugins>
+  </build>
+

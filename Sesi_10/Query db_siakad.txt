@@ -1,0 +1,70 @@
+<<<<<<< HEAD
+-- Adminer 4.8.1 MySQL 5.5.5-10.4.24-MariaDB dump
+
+create database db_siakad;
+
+SET NAMES utf8;
+SET time_zone = '+00:00';
+SET foreign_key_checks = 0;
+SET sql_mode = 'NO_AUTO_VALUE_ON_ZERO';
+
+SET NAMES utf8mb4;
+
+DROP TABLE IF EXISTS `tb_mahasiswa`;
+CREATE TABLE `tb_mahasiswa` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `nim` varchar(50) NOT NULL,
+  `email` varchar(25) NOT NULL,
+  `nama_mahasiswa` varchar(100) NOT NULL,
+  `jenis_kelamin` enum('Laki-laki','Perempuan') NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+INSERT INTO `tb_mahasiswa` (`id`, `nim`, `email`, `nama_mahasiswa`, `jenis_kelamin`) VALUES
+(101,	'10115371',	'doradora@gmail.com',	'Doranggi',	'Perempuan'),
+(102,	'10115372',	'lipliplip@gmail.com',	'Alipudon',	'Laki-laki'),
+(103,	'10115373',	'brenbren@gmail.com',	'Brendar',	'Laki-laki'),
+(104,	'10115374',	'yahyahyah@gmail.com',	'Yahya',	'Laki-laki'),
+(105,	'10115375',	'yopyop@gmail.com',	'Yopiana',	'Perempuan'),
+(106,	'10115376',	'dindin@gmail.com',	'Sahalidin',	'Laki-laki'),
+(107,	'10115377',	'gargar@gmail.com',	'Anggar',	'Laki-laki'),
+(108,	'10115378',	'prampram@gmail.com',	'Pramana',	'Laki-laki'),
+(109,	'10115379',	'kriskris@gmail.com',	'Kris',	'Perempuan'),
+(110,	'10115380',	'tikatika@gmail.com',	'Tika',	'Perempuan');
+
+=======
+-- Adminer 4.8.1 MySQL 5.5.5-10.4.24-MariaDB dump
+
+create database db_siakad;
+
+SET NAMES utf8;
+SET time_zone = '+00:00';
+SET foreign_key_checks = 0;
+SET sql_mode = 'NO_AUTO_VALUE_ON_ZERO';
+
+SET NAMES utf8mb4;
+
+DROP TABLE IF EXISTS `tb_mahasiswa`;
+CREATE TABLE `tb_mahasiswa` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `nim` varchar(50) NOT NULL,
+  `email` varchar(25) NOT NULL,
+  `nama_mahasiswa` varchar(100) NOT NULL,
+  `jenis_kelamin` enum('Laki-laki','Perempuan') NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+INSERT INTO `tb_mahasiswa` (`id`, `nim`, `email`, `nama_mahasiswa`, `jenis_kelamin`) VALUES
+(101,	'10115371',	'doradora@gmail.com',	'Doranggi',	'Perempuan'),
+(102,	'10115372',	'lipliplip@gmail.com',	'Alipudon',	'Laki-laki'),
+(103,	'10115373',	'brenbren@gmail.com',	'Brendar',	'Laki-laki'),
+(104,	'10115374',	'yahyahyah@gmail.com',	'Yahya',	'Laki-laki'),
+(105,	'10115375',	'yopyop@gmail.com',	'Yopiana',	'Perempuan'),
+(106,	'10115376',	'dindin@gmail.com',	'Sahalidin',	'Laki-laki'),
+(107,	'10115377',	'gargar@gmail.com',	'Anggar',	'Laki-laki'),
+(108,	'10115378',	'prampram@gmail.com',	'Pramana',	'Laki-laki'),
+(109,	'10115379',	'kriskris@gmail.com',	'Kris',	'Perempuan'),
+(110,	'10115380',	'tikatika@gmail.com',	'Tika',	'Perempuan');
+
+>>>>>>> f4057c49296405e8d39733d095f2ace084f59623
+-- 2022-06-22 17:08:58

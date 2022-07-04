@@ -1,0 +1,104 @@
+<<<<<<< HEAD
+= TOOLS DATABASE =================================
+postgre
+mongodb
+xampp 7.4
+tool sqlyog > mysql
+db eaver > all sql
+studio 3t > mongo db
+
+https://www.apachefriends.org/download.html
+https://www.adminer.org/
+https://github.com/pematon/adminer-custom
+
+
+= CONFIG ADMINER ================================
+teman" edit file ini > c:\xampp\phpmyadmin\config.inc.php
+ganti config menjadi cookie
+lalu restart apache dan mysql
+kalau udah di copy adminer ke C:\xampp\htdocs
+coba 127.0.0.1/adminer / localhost/adminer.php
+
+
+==================================================
+select tp.nama_pegawai, tp.jabatan, "total_gaji" from tb_pegawai tp
+join tb_gaji tg on tg.id_pegawai=tp.id_pegawai where tp.nama_pegawai = 'sanji'
+union all
+select tp.nama_pegawai, "", tg.gaji from tb_gaji tg  
+join tb_pegawai tp on tg.id_pegawai=tp.id_pegawai where tg.id_pegawai= '1'
+group by tp.nama_pegawai
+
+select tr.id_transaksi,tpl.nama_pembeli,tm.nama_menu, tp.nama_pegawai, tr.tgl_transaksi from tb_transaksi tr
+join tb_pembeli tpl on tr.id_pembeli=tpl.id_pembeli
+join tb_menu tm on tr.id_menu=tm.id_menu
+join tb_pegawai tp on tr.id_pegawai=tp.id_pegawai
+
+
+= BUAT DB MAHASISWA =============================
+1. create database h8_siakad / db_siakad / bfi_siakad
+2. create table tb_mahasiswa / mahasiswa
+3. create field (sesuaikan struktur tabel)
+	> table mahasiswa
+		id > pk (primary key), type data int (11)/bigint (21), auto increment (yang di db inisialisasi primary key nya ID)
+		nim (nomor induk mahasiswa) type data string (255) / 50 / 100 (Unik)
+		email (Unik)
+		nama mahasiswa type data String (100)
+		jenis kelamin > string/varchar 50 / 2 > value data (P,L) > Laki-laki/Perempuan (tidak dikecualikan)
+					enum (P,L) atau Perempuan/Laki-laki > jika diisi "Yang lainnya" > ini tidak bisa (sudah dikecualikan)
+					int (2) > comment 0=laki-laki, 1=perempuan
+4. insert record, insert data mahasiswa
+
+
+=======
+= TOOLS DATABASE =================================
+postgre
+mongodb
+xampp 7.4
+tool sqlyog > mysql
+db eaver > all sql
+studio 3t > mongo db
+
+https://www.apachefriends.org/download.html
+https://www.adminer.org/
+https://github.com/pematon/adminer-custom
+
+
+= CONFIG ADMINER ================================
+teman" edit file ini > c:\xampp\phpmyadmin\config.inc.php
+ganti config menjadi cookie
+lalu restart apache dan mysql
+kalau udah di copy adminer ke C:\xampp\htdocs
+coba 127.0.0.1/adminer / localhost/adminer.php
+
+
+==================================================
+select tp.nama_pegawai, tp.jabatan, "total_gaji" from tb_pegawai tp
+join tb_gaji tg on tg.id_pegawai=tp.id_pegawai where tp.nama_pegawai = 'sanji'
+union all
+select tp.nama_pegawai, "", tg.gaji from tb_gaji tg  
+join tb_pegawai tp on tg.id_pegawai=tp.id_pegawai where tg.id_pegawai= '1'
+group by tp.nama_pegawai
+
+select tr.id_transaksi,tpl.nama_pembeli,tm.nama_menu, tp.nama_pegawai, tr.tgl_transaksi from tb_transaksi tr
+join tb_pembeli tpl on tr.id_pembeli=tpl.id_pembeli
+join tb_menu tm on tr.id_menu=tm.id_menu
+join tb_pegawai tp on tr.id_pegawai=tp.id_pegawai
+
+
+= BUAT DB MAHASISWA =============================
+1. create database h8_siakad / db_siakad / bfi_siakad
+2. create table tb_mahasiswa / mahasiswa
+3. create field (sesuaikan struktur tabel)
+	> table mahasiswa
+		id > pk (primary key), type data int (11)/bigint (21), auto increment (yang di db inisialisasi primary key nya ID)
+		nim (nomor induk mahasiswa) type data string (255) / 50 / 100 (Unik)
+		email (Unik)
+		nama mahasiswa type data String (100)
+		jenis kelamin > string/varchar 50 / 2 > value data (P,L) > Laki-laki/Perempuan (tidak dikecualikan)
+					enum (P,L) atau Perempuan/Laki-laki > jika diisi "Yang lainnya" > ini tidak bisa (sudah dikecualikan)
+					int (2) > comment 0=laki-laki, 1=perempuan
+4. insert record, insert data mahasiswa
+
+
+>>>>>>> f4057c49296405e8d39733d095f2ace084f59623
+==================================================

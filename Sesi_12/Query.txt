@@ -1,0 +1,194 @@
+a.
+select
+	tt.nama_tanggungan, tt.hubungan_tanggungan
+from
+	tb_tanggungan tt
+join
+	tb_pegawai tpe 
+on
+	tt.id_pegawai = tpe.id_pegawai
+where
+	tpe.nama_depan
+like
+	'R%'
+
+b.
+select
+	twak.id_proyek,
+	count(twak.id_proyek) as total_proyek_l
+from
+	tb_waktu_kerja twak
+where
+	id_proyek=1
+
+c.
+select
+	count(tpe.gaji_pegawai) as gaji_pegawai_diatas_3500000
+from
+	tb_pegawai tpe
+where
+	gaji_pegawai>3500000
+
+d.
+select
+	count(tpr.id_departemen) as total_proyek_departemen_2
+from
+	tb_proyek tpr
+where
+	id_departemen = 2
+
+e.
+select
+	td.nama_departemen, avg (tpe.gaji_pegawai) as 'rata_rata_gaji' 
+from
+	tb_pegawai tpe
+join
+	tb_departemen td 
+on
+	tpe.id_departemen = td.id_departemen
+group by
+	td.id_departemen
+
+f.
+select
+	td. nama_departemen, count(tpe.id_pegawai) as 'banyak_pegawai'
+from
+	tb_pegawai tpe
+join
+	tb_departemen td 
+on
+	tpe.id_departemen = td.id_departemen
+group by
+	td.id_departemen
+
+g.
+select
+	tpr.nama_proyek, sum(twak.waktu_kerja) as 'total_jam_kerja_perminggu'
+from
+	tb_waktu_kerja twak
+join
+	tb_proyek tpr
+on
+	tpr.id_proyek = twak.id_proyek
+group by
+	twak.id_proyek
+order by
+	total_jam_kerja_perminggu desc
+
+h.
+select
+	tpe.nama_depan as 'nama_pegawai', sum(twak.waktu_kerja) as 'total_waktu_kerja'
+from
+	tb_pegawai tpe
+join
+	tb_waktu_kerja twak
+on
+	tpe.id_pegawai = twak.id_pegawai
+group by
+	twak.id_pegawai
+having sum(twak.waktu_kerja) > 140
+order by
+	total_waktu_kerja desc
+
+i.
+select
+	tpe.nama_depan as 'nama_pegawai', sum(twak.waktu_kerja) as 'total_waktu_kerja',
+case
+	when sum(twak.waktu_kerja) > 200 then 'Bonus 50%'
+	when sum(twak.waktu_kerja) > 150 then 'Bonus 25%'
+	else 'Bonus 10%'
+end as 'bonus_kinerja'
+from
+	tb_pegawai tpe
+join
+	tb_waktu_kerja twak
+on
+	tpe.id_pegawai = twak.id_pegawai
+group by
+	twak.id_pegawai
+order by
+	total_waktu_kerja desc
+
+j.
+select
+	tpe.nama_depan as 'nama_pegawai',
+count(twak.id_proyek) as 'jumlah_proyek' 
+from
+	tb_pegawai tpe 
+join
+	tb_waktu_kerja twak 
+on
+	tpe.id_pegawai = twak.id_pegawai
+group by
+	tpe.id_pegawai
+order by
+	jumlah_proyek desc
+
+k.
+select
+	tpe.nama_depan as 'nama_pegawai', count(twak.id_proyek) as 'jumlah_proyek'
+from
+	tb_pegawai tpe join tb_waktu_kerja twak 
+on
+	tpe.id_pegawai = twak.id_pegawai
+group by
+	tpe.id_pegawai
+having jumlah_proyek >=4
+order by
+	jumlah_proyek desc
+
+l.
+select
+	tpe.nama_depan as 'nama_pegawai',
+avg(twak.waktu_kerja) as 'rata_rata_waktu_kerja',
+count(twak.id_proyek) as 'jumlah_proyek'
+from
+	tb_pegawai tpe
+join
+	tb_waktu_kerja twak
+on
+	tpe.id_pegawai = twak.id_pegawai
+group by
+	tpe.id_pegawai
+having rata_rata_waktu_kerja > 70 and jumlah_proyek >=2
+
+m.
+select
+	tt.hubungan_tanggungan,
+count(tt.hubungan_tanggungan) as 'banyaknya_tanggungan'
+from
+	tb_pegawai tpe
+join
+	tb_tanggungan tt 
+on
+	tpe.id_pegawai = tt.id_pegawai
+group by
+	tt.hubungan_tanggungan
+order by
+	banyaknya_tanggungan desc
+
+n.
+select
+	temp.nama_depan as nama,
+	td.nama_departemen as departemen,
+	tanggal_mulai_manager as tgl_mulai,
+	timestampdiff(month, tanggal_mulai_manager, curdate()) as lama_menjabat_bulan
+from
+	tb_pegawai temp
+join
+	tb_departemen td
+on
+	temp.id_pegawai=td.id_manager
+order by
+timestampdiff(month, tanggal_mulai_manager, curdate()) desc
+
+o.
+select
+	lokasi_departemen,
+count(lokasi_departemen) as 'total_lokasi_proyek'
+from
+	tb_lokasi_departemen
+group by
+	lokasi_departemen
+having
+	total_lokasi_proyek > 1
