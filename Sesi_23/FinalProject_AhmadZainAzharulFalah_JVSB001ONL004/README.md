@@ -31,7 +31,6 @@ Hanya user dengan role admin yang dapat melakukan proses CRUD pada sistem ini.\
 &nbsp;
 
 ## Penggunaan API menggunakan perintah dibawah pada Swagger atau Postman
-&nbsp;
 
 ### Register User/SignUp
 ```
