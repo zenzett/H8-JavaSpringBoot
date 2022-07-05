@@ -1,17 +1,17 @@
 
 # FINAL PROJECT
-Nama         : Ahmad Zain Azharul Falah
-Kode Peserta : JVSB001ONL004
+Nama        : Ahmad Zain Azharul Falah\
+Kode Peserta : JVSB001ONL004\
 Link Github  : https://github.com/zenzett/Hacktiv8-JavaSpringBoot
 
-Panduan Penggunaan Aplikasi :
-	1. pom.xml > clean > update maven project > install
-	2. klik folder > run as spring boot app
-	3. masuk ke localhost:port/swagger-ui.html
+Panduan Penggunaan Aplikasi :\
+	1. pom.xml > clean > update maven project > install\
+	2. klik folder project > run as spring boot app\
+	3. masuk ke 'localhost:port/swagger-ui.html' di browser.
 
 
 ## Penjelasan
-Final Project Java Spring Boot tentang pembuatan API pada sistem travel agen bus.
+Final Project Java Spring Boot tentang pembuatan API pada sistem travel agen bus.\
 Hanya user dengan role admin yang dapat melakukan proses CRUD pada sistem ini.
 
 
@@ -52,7 +52,7 @@ Hanya user dengan role admin yang dapat melakukan proses CRUD pada sistem ini.
 ```http
   POST http://localhost:8080/api/auth
 ```
-Setelah perintah di atas dijalankan, maka Bearer token akan digenerate.
+Setelah perintah di atas dijalankan, maka Bearer token akan digenerate.\
 Lalu gunakan bearer token tersebut pada Authorization untuk login.
 
 ### Get All Agency
