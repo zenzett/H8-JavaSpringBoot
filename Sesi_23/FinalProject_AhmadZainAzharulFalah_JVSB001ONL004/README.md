@@ -1,19 +1,19 @@
 
 # FINAL PROJECT
-Nama        : Ahmad Zain Azharul Falah\
-Kode Peserta : JVSB001ONL004\
-Link Github  : https://github.com/zenzett/Hacktiv8-JavaSpringBoot
+**Nama        : Ahmad Zain Azharul Falah**\
+**Kode Peserta : JVSB001ONL004**\
+**Link Github  : https://github.com/zenzett/Hacktiv8-JavaSpringBoot**
 
-Panduan Penggunaan Aplikasi :\
-	1. pom.xml > clean > update maven project > install\
-	2. klik folder project > run as spring boot app\
-	3. masuk ke `localhost:port/swagger-ui.html` di browser
-
+- Panduan Penggunaan Aplikasi :\
+	  1. pom.xml > clean > update maven project > install\
+	  2. klik folder project > run as spring boot app\
+	  3. masuk ke `http://localhost:8686/swagger-ui.html` di browser\
+&nbsp;
 
 ## Penjelasan
 Final Project Java Spring Boot tentang pembuatan API pada sistem travel agen bus.\
-Hanya user dengan role admin yang dapat melakukan proses CRUD pada sistem ini.
-
+Hanya user dengan role admin yang dapat melakukan proses CRUD pada sistem ini.\
+&nbsp;
 
 ## Project Dependencies
 - Spring Boot Starter Data JPA
@@ -27,9 +27,9 @@ Hanya user dengan role admin yang dapat melakukan proses CRUD pada sistem ini.
 - Springfox Swagger2 ver. 2.7.0
 - Springfox SwaggerUI ver. 2.7.0
 - Flyway Core
+&nbsp;
 
-
-## Penggunaan API yang dilakukan pada Swagger atau Postman, dengan menggunakan url sebagai berikut:
+## Penggunaan API yang pada Swagger atau Postman:
 
 ### Register User/SignUp
 ```
@@ -50,8 +50,8 @@ Hanya user dengan role admin yang dapat melakukan proses CRUD pada sistem ini.
 ```
   POST http://localhost:8080/api/auth
 ```
-Setelah perintah di atas dijalankan, maka Bearer token akan digenerate.\
-Lalu gunakan bearer token tersebut pada Authorization untuk login.\
+Setelah perintah di atas dijalankan, maka bearer token akan digenerate.\
+Lalu gunakan bearer token tersebut pada menu authorization untuk login.\
 &nbsp;
 
 ### Get All Agency
