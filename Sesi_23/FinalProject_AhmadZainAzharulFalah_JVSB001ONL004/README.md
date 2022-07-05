@@ -50,8 +50,8 @@ Hanya user dengan role admin yang dapat melakukan proses CRUD pada sistem ini.
 ```
   POST http://localhost:8080/api/auth
 ```
-#### Setelah perintah di atas dijalankan, maka Bearer token akan digenerate.\
-#### Lalu gunakan bearer token tersebut pada Authorization untuk login.
+`Setelah perintah di atas dijalankan, maka Bearer token akan digenerate.\`
+`Lalu gunakan bearer token tersebut pada Authorization untuk login.`
 
 ### Get All Agency
 ```
