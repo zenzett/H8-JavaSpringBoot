@@ -32,22 +32,22 @@ Hanya user dengan role admin yang dapat melakukan proses CRUD pada sistem ini.\
 
 ## Penggunaan API menggunakan perintah dibawah pada Swagger atau Postman
 
-### Register User/SignUp
+### Register User / SignUp
 ```
   POST http://localhost:8080/api/v1/user/signup
 ```
 
-### UpdateUser
+### Update User
 ```
   PUT http://localhost:8080/api/v1/user/{id}
 ```
 
-### UpdatePassword
+### Update Password
 ```
   PUT http://localhost:8080/api/v1/password/{id}
 ```
 
-### Authentication/Login
+### Authentication / Login
 ```
   POST http://localhost:8080/api/auth
 ```
