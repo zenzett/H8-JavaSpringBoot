@@ -1,5 +1,5 @@
 INSERT INTO `bus`(`capacity`, `code`, `make`, `agency_id`)
-VALUES (30,"BPJ01","30",1);
+VALUES (20,"BDL01","20",1);
 
 INSERT INTO `bus`(`capacity`, `code`, `make`, `agency_id`)
-VALUES (25,"BPJ02","25",1);
+VALUES (15,"BDL02","15",1);

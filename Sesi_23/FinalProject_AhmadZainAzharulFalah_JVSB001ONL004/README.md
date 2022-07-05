@@ -7,7 +7,7 @@ Link Github  : https://github.com/zenzett/Hacktiv8-JavaSpringBoot
 Panduan Penggunaan Aplikasi :\
 	1. pom.xml > clean > update maven project > install\
 	2. klik folder project > run as spring boot app\
-	3. masuk ke 'localhost:**port**/swagger-ui.html' di browser.
+	3. masuk ke `localhost:port/swagger-ui.html` di browser
 
 
 ## Penjelasan
@@ -51,8 +51,8 @@ Hanya user dengan role admin yang dapat melakukan proses CRUD pada sistem ini.
   POST http://localhost:8080/api/auth
 ```
 Setelah perintah di atas dijalankan, maka Bearer token akan digenerate.\
-Lalu gunakan bearer token tersebut pada Authorization untuk login.  
-
+Lalu gunakan bearer token tersebut pada Authorization untuk login.\
+&nbsp;
 
 ### Get All Agency
 ```
