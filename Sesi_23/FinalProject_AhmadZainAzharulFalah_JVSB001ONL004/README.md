@@ -33,7 +33,7 @@ Hanya user dengan role admin yang dapat melakukan proses CRUD pada sistem ini.
 
 ### Register User/SignUp
 
-```http
+```
   POST http://localhost:8080/api/v1/user/signup
 ```
 
