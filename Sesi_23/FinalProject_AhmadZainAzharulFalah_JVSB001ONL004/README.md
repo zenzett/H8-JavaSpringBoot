@@ -27,6 +27,7 @@ Hanya user dengan role admin yang dapat melakukan proses CRUD pada sistem ini.\
 - Springfox Swagger2 ver. 2.7.0
 - Springfox SwaggerUI ver. 2.7.0
 - Flyway Core
+&nbsp;\
 &nbsp;
 
 ## Penggunaan API yang pada Swagger atau Postman:
