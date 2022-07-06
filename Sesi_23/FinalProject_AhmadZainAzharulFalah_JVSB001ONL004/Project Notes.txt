@@ -1,0 +1,7 @@
+Database Flow:
+User > Auth > Agency > Bus > Stop > Trip > TripSchedule > Ticket
+
+Users:
+zenzett / asdasd - ADMIN
+gargar / zxczxc - USER
+ramram / 123123 - USER
