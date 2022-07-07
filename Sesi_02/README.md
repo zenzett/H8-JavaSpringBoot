@@ -9,38 +9,30 @@
 >		3. Perhatikan pada bagian console untuk melihat hasil ataupun memasukkan inputan ke dalam program.
 
 &nbsp;
-## Introduction to Java Languages
+## Java Operator & Conditional Logic
 
-**Apa itu Bahasa Pemrograman Java ?**\
-Bahasa *Java* adalah Bahasa pemograman high-level, dibuat oleh James Gosling yang kemudian di akuisisi oleh  Sun Microsystems  tahun 1995. Banyak dijalankan pada variety platforms Windows, MasOS , and UNIX.
+&nbsp;
+#### Operator Dalam Java
+Operator merupakan suatu simbol yang digunakan untuk memberikan perintah kepada komputer untuk melakukan aksi terhadap satu atau lebih operand. Operand sendiri adalah sesuatu yang dioperasikan oleh operator.
 
-**Mengapa Java ?**\
-Bahasa Pemograman paling popular yang bersifat Independent Platform yang Simple, Secure, Portable mendukung architecture-neutral dan juga yang paling penting adalah Object Oriented Programming.
+Di dalam java ada beberapa tipe Operator yang wajib dipahami , yaitu :
+- **Operator Aritmatika**\
+Operator Aritmatika ini adalah operator yang sering kita gunakan untuk hitung menghitung seperti kali bagi tambah kurang dan lainnya.
+- **Operator Penugasan**\
+Operator Penugasan digunakan untuk memberi tugas suatu variable untuk melakukan suatu proses. Operator ini sering digunakan dalam pemrograman untuk mengulangi suatu perintah , salah satunya adalah increment / decrement.
+- **Operator Pembanding**\
+Operator Pembanding merupakan suatu operator yang digunakan untuk membandingkan antara dua buah nilai. Hasil perbandingan dari operator ini adalah *true* dan *false* (tipe data *boolean*).
+- **Operator Logika**\
+Operator Logika adalah suatu operator yang membandingkan dua bukan *kondisi* , mirip seperti dengan operator pembanding. Operator Logika ini menghasilkan nilai bertipe *boolean*, yaitu *true* dan *false*.
 
-**Struktur Program Java**\
-Secara umum dibagi menjadi 4 bagian:
-1. Deklarasi *Package*, package adalah  folder yang berisi sekumpulan program Java.
-2. *Import Library*, library merupakan sekumpulan class dan fungsi yang bisa kita gunakan dalam membuat program.
-3. Bagian *Class*, kita dapat mengisi block class dengan method atau fungsi-fungsi dan juga variabel.
-4. *Method main*, method main() atau fungsi main() merupakan blok program yang akan SELALU dieksekusi pertama kali. Method main() wajib kita buat. Kalau tidak, maka programnya tidak akan bisa dieksekusi.
+&nbsp;
+#### Logika Kondisi
+Dalam bahasa pemrograman Java, untuk menganalisa dan mengevaluasi kondisi digunakan variabel boolean. Dalam hal ini, nilai boolean true dan false dikembalikan pada saat melakukan pembandingan ekspresi atau dievaluasi.
 
-**Statement & Expressions**\
-*Statement* adalah unit sintaks pada bahasa pemrograman yang menyatakan aksi atau tugas untuk dilakukan.\
-*Ekspresi* adalah entitas sintaks pada bahasa pemrograman yang menghasilkan sebuah nilai.
-
-**Input & Output**\
-Ada 3 komponen utama:
-1. Input: Nilai yang dimasukkan dalam program
-2. Program: Langkah demi Langkah yang dilakukan untuk mengelola input
-3. Output: Hasil
-
-**Tipe Data**\
-Macam-macam tipe data pada Java :
-- `char` : Tipe data karakter, contoh: Y
-- `int` : Angka atau bilangan bulat, contoh: 29
-- `float` : Bilangan desimal, contoh: 2.1
-- `double` : Bilangan desimal juga, tapi lebih besar kapasitasnya, contoh: 2.1
-- `string` : Kumpulan dari karakter yang membentuk teks, contoh: Hello Java!
-- `boolean` : Tipe data yang hanya bernilai true dan false
+Beberapa contoh logika yang dipelajari pada materi ini adalah :
+- If - Else and Between
+- == and Equals
+- Switch Case
+- Nested If
 
 &nbsp;
