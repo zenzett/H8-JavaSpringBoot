@@ -1,5 +1,3 @@
-
-# FINAL PROJECT
 **Nama        : Ahmad Zain Azharul Falah**\
 **Kode Peserta : JVSB001ONL004**\
 **Link Github  : https://github.com/zenzett/Hacktiv8-JavaSpringBoot**

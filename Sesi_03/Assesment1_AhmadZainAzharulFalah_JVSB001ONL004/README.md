@@ -1,14 +1,13 @@
+**Nama        : Ahmad Zain Azharul Falah**\
+**Kode Peserta : JVSB001ONL004**\
+**Link Github  : https://github.com/zenzett/Hacktiv8-JavaSpringBoot**
+\
+&nbsp;
+
 **DISCLAIMER**\
 Semua informasi di sini diterbitkan dengan tujuan baik dan murni hanya untuk informasi umum.\
 Benar atau tidaknya, kembali kepada referensi masing-masing individu.\
 Sekian, terima kasih.
-\
-&nbsp;
-
-
-**Nama : Ahmad Zain Azharul Falah**\
-Kode Peserta : JVSB001ONL004\
-Link Github : https://github.com/zenzett/Hacktiv8-JavaSpringBoot
 \
 &nbsp;
 
