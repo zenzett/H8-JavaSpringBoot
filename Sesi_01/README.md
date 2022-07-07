@@ -1,16 +1,7 @@
-**DISCLAIMER**\
-Semua informasi di sini diterbitkan dengan tujuan baik dan murni hanya untuk informasi umum.\
-Benar atau tidaknya, kembali kepada referensi masing-masing individu.\
-Sekian, terima kasih.
-\
-&nbsp;
-
-> **DISCLAIMER**\
+>**DISCLAIMER**\
 >Semua informasi di sini diterbitkan dengan tujuan baik dan murni hanya untuk informasi umum.\
 >Benar atau tidaknya, kembali kepada referensi masing-masing individu.\
 >Sekian, terima kasih.
-\
-&nbsp;
 
 **Apa itu Bahasa Pemrograman Java ?**\
 Bahasa Java adalah Bahasa pemograman high-level, dibuat oleh James Gosling yang kemudian di akuisisi oleh  Sun Microsystems  tahun 1995. Banyak dijalankan pada variety platforms Windows, MasOS , and UNIX.
