@@ -11,7 +11,8 @@
 \
 **Nama        : Ahmad Zain Azharul Falah**\
 **Kode Peserta : JVSB001ONL004**\
-**Link Github  :** ![GitHub followers](https://img.shields.io/github/followers/zenzett?label=%40zenzett&style=social)
+**Link Github  :** [![GitHub followers](https://img.shields.io/github/followers/zenzett?label=%40zenzett&style=social)](https://github.com/zenzett/Hacktiv8-JavaSpringBoot
+)
 
 ## Assignment 1
 
