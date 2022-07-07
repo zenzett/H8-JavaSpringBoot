@@ -1,4 +1,4 @@
-# H8 - Back End Development With Java Springboot Course
+# H8 - Back End Development With Java Spring Boot
 
 #### Mentored by: [Arif Setiawan](https://github.com/arifswn)
 \
