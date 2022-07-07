@@ -5,6 +5,13 @@ Sekian, terima kasih.
 \
 &nbsp;
 
+> **DISCLAIMER**\
+>Semua informasi di sini diterbitkan dengan tujuan baik dan murni hanya untuk informasi umum.\
+>Benar atau tidaknya, kembali kepada referensi masing-masing individu.\
+>Sekian, terima kasih.
+\
+&nbsp;
+
 **Apa itu Bahasa Pemrograman Java ?**\
 Bahasa Java adalah Bahasa pemograman high-level, dibuat oleh James Gosling yang kemudian di akuisisi oleh  Sun Microsystems  tahun 1995. Banyak dijalankan pada variety platforms Windows, MasOS , and UNIX.
 
@@ -20,6 +27,12 @@ Bahasa Pemograman paling popular yang bersifat Independent Platform yang Simple,
 **Statement & Expressions**\
 Statement adalah unit sintaks pada bahasa pemrograman yang menyatakan aksi atau tugas untuk dilakukan.\
 Ekspresi adalah entitas sintaks pada bahasa pemrograman yang menghasilkan sebuah nilai.\
+\
+**Input & output**\
+Ada 3 komponen utama:
+1. Input: Nilai yang dimasukkan dalam program
+2. Program: Langkah demi Langkah yang dilakukan untuk mengelola input
+3. Output: Hasil
 \
 **Panduan Penggunaan Aplikasi :**\
         1. Aplikasi dapat dijalankan terpisah sesuai dengan keinginan user.\
