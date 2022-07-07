@@ -3,6 +3,14 @@
 >Benar atau tidaknya, kembali kepada referensi masing-masing individu.\
 >Sekian, terima kasih.
 
+```
+**DISCLAIMER**
+Semua informasi di sini diterbitkan dengan tujuan baik dan murni hanya untuk informasi umum.
+Benar atau tidaknya, kembali kepada referensi masing-masing individu.
+Sekian, terima kasih.
+```
+
+\
 **Apa itu Bahasa Pemrograman Java ?**\
 Bahasa Java adalah Bahasa pemograman high-level, dibuat oleh James Gosling yang kemudian di akuisisi oleh  Sun Microsystems  tahun 1995. Banyak dijalankan pada variety platforms Windows, MasOS , and UNIX.
 
@@ -19,11 +27,22 @@ Bahasa Pemograman paling popular yang bersifat Independent Platform yang Simple,
 Statement adalah unit sintaks pada bahasa pemrograman yang menyatakan aksi atau tugas untuk dilakukan.\
 Ekspresi adalah entitas sintaks pada bahasa pemrograman yang menghasilkan sebuah nilai.\
 \
-**Input & output**\
+**Input & Output**\
 Ada 3 komponen utama:
 1. Input: Nilai yang dimasukkan dalam program
 2. Program: Langkah demi Langkah yang dilakukan untuk mengelola input
 3. Output: Hasil
+
+\
+**Tipe Data**\
+Macam-macam tipe data pada Java :\
+`char` : Tipe data karakter, contoh: Y\
+`int` : Angka atau bilangan bulat, contoh: 29\
+`float` : Bilangan desimal, contoh: 2.1\
+`double` : Bilangan desimal juga, tapi lebih besar kapasitasnya, contoh: 2.1\
+`string` : Kumpulan dari karakter yang membentuk teks, contoh: Hello Java!\
+`boolean` : Tipe data yang hanya bernilai true dan false
+
 \
 **Panduan Penggunaan Aplikasi :**\
         1. Aplikasi dapat dijalankan terpisah sesuai dengan keinginan user.\
