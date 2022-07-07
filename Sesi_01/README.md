@@ -7,7 +7,7 @@ Bahasa Java adalah Bahasa pemograman high-level, dibuat oleh James Gosling yang 
 **Mengapa Java ?**\
 Bahasa Pemograman paling popular yang bersifat Independent Platform yang Simple, Secure, Portable mendukung architecture-neutral dan juga yang paling penting adalah Object Oriented Programming!
 
-**Struktur Program Java secara umum dibagi menjadi 4 bagian:**
+**Struktur Program Java secara umum dibagi menjadi 4 bagian:**\
         1. Deklarasi Package, package adalah  folder yang berisi sekumpulan program Java.\
         2. Import Library, library merupakan sekumpulan class dan fungsi yang bisa kita gunakan dalam membuat program.\
         3. Bagian Class, kita dapat mengisi block class dengan method atau fungsi-fungsi dan juga variabel.\
