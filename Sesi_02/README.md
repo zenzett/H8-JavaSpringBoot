@@ -12,7 +12,7 @@
 ## Java Operator & Conditional Logic
 
 &nbsp;
-#### Operator Dalam Java
+### Operator Dalam Java
 Operator merupakan suatu simbol yang digunakan untuk memberikan perintah kepada komputer untuk melakukan aksi terhadap satu atau lebih operand. Operand sendiri adalah sesuatu yang dioperasikan oleh operator.
 
 Di dalam java ada beberapa tipe Operator yang wajib dipahami , yaitu :
@@ -26,7 +26,7 @@ Operator Pembanding merupakan suatu operator yang digunakan untuk membandingkan 
 Operator Logika adalah suatu operator yang membandingkan dua bukan *kondisi* , mirip seperti dengan operator pembanding. Operator Logika ini menghasilkan nilai bertipe *boolean*, yaitu *true* dan *false*.
 
 &nbsp;
-#### Logika Kondisi
+### Logika Kondisi
 Dalam bahasa pemrograman Java, untuk menganalisa dan mengevaluasi kondisi digunakan variabel boolean. Dalam hal ini, nilai boolean true dan false dikembalikan pada saat melakukan pembandingan ekspresi atau dievaluasi.
 
 Beberapa contoh logika yang dipelajari pada materi ini adalah :

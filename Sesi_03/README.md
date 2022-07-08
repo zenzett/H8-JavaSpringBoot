@@ -12,7 +12,7 @@
 ## Fundamental Programming with Looping
 
 &nbsp;
-#### Looping Introduction
+### Looping Introduction
 Perulangan atau Loop adalah sebuah hal yang digunakan untuk mengeksekusi sebuah set dari suatu instruksi atau fungsi secara berulang ketika beberapa kondisi menjadi nyata (true).
 
 \
@@ -36,7 +36,7 @@ Perulangan juga terbagi menjadi 2 jenis :
 
 \
 &nbsp;
-#### Latihan Looping yang dilakukan pada materi ini
+### Latihan Looping yang dilakukan pada materi ini
 - For
 - For - Each
 - Break and Continue

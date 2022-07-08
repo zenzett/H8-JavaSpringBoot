@@ -8,7 +8,6 @@
 >		2. Compile terlebih dahulu file java kemudian jalankan class dengan nama yang sama pada file java.\
 >		3. Perhatikan pada bagian console untuk melihat hasil ataupun memasukkan inputan ke dalam program.
 
-\
 &nbsp;
 - - - -
 **Nama        : Ahmad Zain Azharul Falah**\
@@ -16,11 +15,11 @@
 **Link Github  :** [![GitHub followers](https://img.shields.io/github/followers/zenzett?label=Zain&style=social)](https://github.com/zenzett/Hacktiv8-JavaSpringBoot)
 - - - -
 
-\
 &nbsp;
 ## Assignment 1
 
-#### Proses Pembuatan Aplikasi
+&nbsp;
+### Proses Pembuatan Aplikasi
 1. LuasLingkaran.java\
         - Mendeklarasikan variabel untuk menghitung luas lingkaran\
         - Memasukkan nilai untuk masing-masing variabel tersebut.\
