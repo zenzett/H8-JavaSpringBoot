@@ -36,7 +36,7 @@ Perulangan juga terbagi menjadi 2 jenis :
 
 \
 &nbsp;
-### Latihan Looping yang dilakukan pada materi ini
+#### Latihan yang dilakukan pada materi ini:
 - For
 - For - Each
 - Break and Continue

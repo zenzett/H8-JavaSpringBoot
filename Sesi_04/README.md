@@ -83,3 +83,11 @@ Lalu, ada 3 jenis cara untuk melakukan penelusuran data (traversal) pada BST :
     	- Membuat kode program untuk mengoperasikan binary tree dan mengurutkan angka2 yang diinput sesuai dengan aturan dari masing2 Order (Pre Order, In Order, Post Order).
     
 &nbsp;
+#### Latihan yang dilakukan pada materi ini:
+- Array
+- Array For Each
+- Array Looping
+- Array Multidimensi
+- Tree
+
+&nbsp;

@@ -7,13 +7,19 @@
 >		1. Klik kanan pada file pom.xml > update maven project > clean > install\
 >		2. Klik kanan pada folder project > run as spring boot app\
 >		3. Klik Boot Dashboard > expand local\
->		4. Klik kanan pada project yang ingin diinginkan > Open Web Browser\
->               5. Tambahkan `swagger-ui.html` pada alamat localhost
+>		4. Klik kanan pada project yang ingin diinginkan > Open Web Browser
 
 &nbsp;
-## Judul
+- - - -
+**Nama        : Ahmad Zain Azharul Falah**\
+**Kode Peserta : JVSB001ONL004**\
+**Link Github  :** [![GitHub followers](https://img.shields.io/github/followers/zenzett?label=Zain&style=social)](https://github.com/zenzett/Hacktiv8-JavaSpringBoot)
+- - - -
 
 &nbsp;
-### Sub Judul
+## Assignment 3
+
+&nbsp;
+### Proses Pembuatan Aplikasi
 
 &nbsp;

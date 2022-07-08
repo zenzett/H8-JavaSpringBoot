@@ -36,3 +36,11 @@ Beberapa contoh logika yang dipelajari pada materi ini adalah :
 - Nested If
 
 &nbsp;
+#### Latihan yang dilakukan pada materi ini:
+- Operator Aritmatika
+- Operator Penugasan
+- Operator Pembanding
+- Operator Ternary
+- Logika dan Kondisi
+
+&nbsp;

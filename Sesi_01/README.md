@@ -50,3 +50,10 @@ Macam-macam tipe data pada Java :
 - `boolean` : Tipe data yang hanya bernilai true dan false
 
 &nbsp;
+#### Latihan yang dilakukan pada materi ini:
+- Print
+- Println
+- Switch
+- LinkedList
+
+&nbsp;

@@ -45,8 +45,7 @@ Method adalah sekumpulan kode atau kumpulan pernyataan atau sekumpulan kode yang
 Kita akan menulis Method sekali dan menggunakannya berkali-kali dalam kata lain tidak perlu menulis kode lagi dan lagi. Hal ini juga menyediakan modifikasi dan pembacaan kode yang mudah, hanya dengan menambahkan atau menghapus sebagian kode. Method ini dijalankan hanya ketika kita memanggil atau memanggilnya.
 
 &nbsp;
-### Hal yang dilakukan pada materi ini
-
+#### Latihan yang dilakukan pada materi ini:
 **1. Object Oriented Programming**\
 Mempelajari tentang apa itu objek, class, bagaimana objek bekerja, dan juga tentang method.
 
