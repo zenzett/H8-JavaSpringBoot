@@ -33,10 +33,10 @@ Object adalah turunan dari class. Class adalah templat atau cetak biru tempat ob
 Class  adalah sekelompok objek yang memiliki properti yang sama. Ini adalah blueprint  dari mana objek dibuat. Dengan class, kita bisa menentukan, mana variabel dan prosedur untuk (misalnya) people dan makanan. Class ini nanti yang akan kita pakai untuk membuat objek.
 
 Kelas di Java dapat berisi:\
-	1.Fields\
-	2.Method\
-	3.Konstruktor\
-	4.Blok
+	1. Fields\
+	2. Method\
+	3. Konstruktor\
+	4. Blok
 
 &nbsp;
 ### Method
