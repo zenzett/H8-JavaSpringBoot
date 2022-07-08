@@ -23,9 +23,10 @@ Contoh penggunaan method synchronized misalkan ketika mengakses resource secara 
 #### Latihan yang dilakukan pada materi ini:
 - Tulis semua kode progran dari modul
 
-- Buat project dengan cara buka terminal (CMD) di direktori yang diinginkan, lalu ketikkan ini:\
-
-`mvn archetype:generate -DgroupId=com.learning.thread -DartifactId=DemoThread -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false`
+- Buat project dengan cara buka terminal (CMD) di direktori yang diinginkan, lalu ketikkan ini:
+```
+mvn archetype:generate -DgroupId=com.learning.thread -DartifactId=DemoThread -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+```
 
 `mvn clean`
 
