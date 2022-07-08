@@ -8,79 +8,41 @@
 >		2. Compile terlebih dahulu file java kemudian jalankan class dengan nama yang sama pada file java.\
 >		3. Perhatikan pada bagian console untuk melihat hasil ataupun memasukkan inputan ke dalam program.
 
-&nbsp;
-## Array & Structure Data Tree
-
-&nbsp;
-#### Array Introduction
-**Array** adalah sebuah variabel yang bisa menyimpan banyak data dalam 1 variabel dan menggunakan indeksuntuk mengakses data.\
-Array yang ada di Java adalah sebuah objek yang berisikan elemen-elemen dari tipe data yang mirip. Tidak hanya itu, elemen yang ada di dalam array ini juga disimpan di lokasi memori yang berdekatan.\
-Array ini adalah struktur data tempat untuk menyimpan elemen yang serupa. Anda hanya dapat menyimpan satu set elemen tetap dalam setiap array Java.\
-Array pada Java berbasis indeks, di mana elemen pertama dari array ini disimpan di dalam indeks 0, elemen ke-2 disimpan di indeks pertama dan begitulah seterusnya.\
-Tidak seperti bahasa C / C++, Anda bisa mendapatkan panjang array dengan menggunakan panjangmember.\
-Sementara dalam bahasa C / C++, Anda perlu menggunakan operator sizeof.
-
-&nbsp;
-#### Bagaimana Array Bekerja ?
-Perhatikan :
-- Kita menggunakan [ ] untuk membuat array
-- Kurung siku diletakkan setelah tipe data atau nama array
-- Angka 5 dalam kurung artinya batas atau ukuran array-
-- Array yang kosong siap diisi dengan data. Pastikan mengisinya dengan data yang sesuai  dengan tipedatanya.
-
 \
-&nbsp;
-Pada materi ini ada beberapa latihan array yang dilakukan, yaitu:
-- Array Handling
-- Array Looping
-- Array Looping - For Each
-- Array Multidimensi
+**Nama        : Ahmad Zain Azharul Falah**\
+**Kode Peserta : JVSB001ONL004**\
+**Link Github  :** [![GitHub followers](https://img.shields.io/github/followers/zenzett?label=Zain&style=social)](https://github.com/zenzett/Hacktiv8-JavaSpringBoot)
 
-&nbsp;
-#### Data Structure - Tree
-Tree (pohon) adalah salah satu bentuk struktur data yang menggambarkan hubungan hierarki antarelemen-elemennya (seperti relasi one to many).\
-Sebuah node dalam tree biasanya bisa memiliki beberapa node lagi sebagai percabangan atas dirinya.
+## Assignment 1
 
-Lalu, ada lagi yang namanya Binary Tree. Apa bedanya?\
-Sebenarnya sama sama konsepnya dengan Tree. Hanya saja, kita akan mengambil sifat bilangan biner yang selalu bernilai 1 atau 0 (2 pilihan).\
-Berarti, binary tree adalah tree yang hanya dapat mempunyai maksimal 2 percabangan saja.
+#### Proses Pembuatan Aplikasi
+1. LuasLingkaran.java\
+        - Mendeklarasikan variabel untuk menghitung luas lingkaran\
+        - Memasukkan nilai untuk masing-masing variabel tersebut.\
+        - Membuat proses penghitungan luas lingkaran.\
+        - Mencetak hasil perhitungan luas lingkaran.
 
-&nbsp;
-#### Binary Search Tree
-Struktur data yang mengadopsi konsep Binary Tree. Terdapat aturan bahwa setiap child node sebelah kiri selalu lebih kecil nilainya dari pada root node. Begitu pula sebaliknya, setiap child node sebelah kanan selalu lebih besar nilainya daripada root node.
+2. Aritmatika.java\
+        - Membuat variabel dan memasukkan nilainya.\
+        - Membuat proses perhitungan aritmatika sesuai yang telah ditentukan.\
+        - Mencetak hasil dari semua perhitungan tersebut.
 
-Aturan main Binary Search Tree :
-- Setiap child node sebelah kiri harus lebih kecil nilainya daripada root nodenya.
-- Setiap child node sebelah kanan harus lebih besar nilainya daripada root nodenya.
+3. IncrementDecrement.java\
+        - Membuat variabel dan menginput nilainya.\
+        - Mencetak beberapa proses sesuai dengan yang telah ditentukan.\
+        - Membuat kode program untuk mencetak hasil sesuai dengan output yang telah ditentukan.
 
-Lalu, ada 3 jenis cara untuk melakukan penelusuran data (traversal) pada BST :
-- PreOrder : Print data, telusur ke kiri, telusur ke kanan
-- InOrder : Telusur ke kiri, print data, telusur ke kanan
-- Post Order : Telusur ke kiri, telusur ke kanan, print data
+4. PerbandinganTrueFalse.java\
+        - Membuat variabel awal dan memasukkan nilainya.\
+        - Membuat kode program untuk menghasilkan output seperti yang telah ditentukan.\
+        - Mencetak hasil dari proses tersebut.
 
-\
-&nbsp;
-#### Penjelasan Program Latihan
-- Array.java\
-		- Mendeklarasikan array.\
-		- Membuat kode program untuk mengambil data dari sebuah array dengan menggunakan indexnya.
+5. a) PenjumlahanXY.java\
+        - Mendeklarasikan variabel awal sesuai dengan yang telah ditentukan.\
+        - Mencetak hasil dari variabel tersebut untuk mengetahui hasilnya.
 
-- ArrayForEach.java\
-    	- Membuat array.\
-    	- Membuat scanner.\
-    	- Mengisi data ke array.\
-    	- Menampilkan array.
+   b) LanjutanPenjumlahan.java\
+        - Membuat variabel baru untuk mencetak hasil sesuai output yang telah ditentukan.\
+        - Membuat kode program untuk menghasilkan output sesuai dengan yang telah ditentukan.
 
-- ArrayLooping.java\
-    	- Membuat array berisi bahasa pemrograman.\
-    	- Membuat kode perulangan untuk menampilkan semua isi array.
-
-- ArrayMultiDimensi.java\
-    	- Membuat beberapa array di dalam array.\
-    	- Membuat kode perulangan untuk menampilkan semua isi array tersebut.
-
-- Tree.java\
-    	- Membuat scanner\
-    	- Membuat kode program untuk mengoperasikan binary tree dan mengurutkan angka2 yang diinput sesuai dengan aturan dari masing2 Order (Pre Order, In Order, Post Order).
-    
 &nbsp;
