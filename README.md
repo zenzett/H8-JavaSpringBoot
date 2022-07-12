@@ -4,7 +4,7 @@
 
 ### Requirements
 
-To run this project, you will need to add / install the followings: 
+To run the projects here, you will need to add / install the followings: 
 
 `JAVA 8` `JAVA JDK 17` `Spring Tools 4` `Maven`
 
