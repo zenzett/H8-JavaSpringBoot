@@ -1,4 +1,4 @@
-# H8 - Back End Development With Java Spring Boot
+# H8 - Back End Development with Java Spring Boot
 
 **Mentored by:** [![GitHub followers](https://img.shields.io/github/followers/arifswn?label=Arif%20Setiawan&style=social)](https://github.com/arifswn)
 
